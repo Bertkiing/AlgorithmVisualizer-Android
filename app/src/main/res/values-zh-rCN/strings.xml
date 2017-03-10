@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">可视化算法</string>
+	<string name="action_settings">设置</string>
+	<string name="report_bugs">报告任何 bug <u>在这里</u></string>
+	<string name="play_billing_license_key">等待</string>
+	<string name="str_search">查找</string>
+	<string name="str_sort">排序</string>
+	<string name="str_tree">树</string>
+	<string name="str_list">列表</string>
+	<string name="str_graph">图</string>
+	<string name="str_about">关于</string>
+	<string name="str_search_bin">二叉树查找</string>
+	<string name="str_search_line">线性查找</string>
+	<string name="str_sort_bubble">冒泡排序</string>
+	<string name="str_sort_insert">插入排序</string>
+	<string name="str_sort_select">选择排序</string>
+	<string name="str_bst_search">BST 查找</string>
+	<string name="str_bst_insert">BST 插入</string>
+	<string name="str_linked_list">线性表</string>
+	<string name="str_stack">栈</string>
+	<string name="str_bfs_traversal">BFS 遍历</string>
+	<string name="str_dfs_traversal">DFS 遍历</string>
+	<string name="str_dijkstra">Dijkstra 最短路径算法</string>
+	<string name="str_ford">Bellman 最短路径算法</string>
+	<string name="str_fork">从Github中Frok</string>
+
+</resources>

@@ -177,54 +177,54 @@ public class MainActivity extends AppCompatActivity {
         listDataChild = new HashMap<ExpandedMenuModel, List<String>>();
 
         ExpandedMenuModel item1 = new ExpandedMenuModel();
-        item1.setName("Search");
+        item1.setName(getString(R.string.str_search));
         listDataHeader.add(item1);
 
         ExpandedMenuModel item2 = new ExpandedMenuModel();
-        item2.setName("Sorting");
+        item2.setName(getString(R.string.str_sort));
         listDataHeader.add(item2);
 
         ExpandedMenuModel item3 = new ExpandedMenuModel();
-        item3.setName("Tree");
+        item3.setName(getString(R.string.str_tree));
         listDataHeader.add(item3);
 
         ExpandedMenuModel item4 = new ExpandedMenuModel();
-        item4.setName("List");
+        item4.setName(getString(R.string.str_list));
         listDataHeader.add(item4);
 
         ExpandedMenuModel item5 = new ExpandedMenuModel();
-        item5.setName("Graph");
+        item5.setName(getString(R.string.str_graph));
         listDataHeader.add(item5);
 
         ExpandedMenuModel item10 = new ExpandedMenuModel();
-        item10.setName("About");
+        item10.setName(getString(R.string.str_about));
         listDataHeader.add(item10);
 
         List<String> heading1 = new ArrayList<>();
-        heading1.add("Binary search");
-        heading1.add("Linear Search");
+        heading1.add(getString(R.string.str_search_bin));
+        heading1.add(getString(R.string.str_search_line));
 
         List<String> heading2 = new ArrayList<String>();
-        heading2.add("Bubble Sort");
-        heading2.add("Insertion Sort");
-        heading2.add("Selection Sort");
+        heading2.add(getString(R.string.str_sort_bubble));
+        heading2.add(getString(R.string.str_sort_insert));
+        heading2.add(getString(R.string.str_sort_select));
         List<String> heading3 = new ArrayList<String>();
-        heading3.add("BST Search");
-        heading3.add("BST Insert");
+        heading3.add(getString(R.string.str_bst_search));
+        heading3.add(getString(R.string.str_bst_insert));
 
         List<String> heading4 = new ArrayList<String>();
-        heading4.add("Linked List");
-        heading4.add("Stack");
+        heading4.add(getString(R.string.str_linked_list));
+        heading4.add(getString(R.string.str_stack));
 
         List<String> heading5 = new ArrayList<String>();
-        heading5.add("BFS Traversal");
-        heading5.add("DFS Travsersal");
-        heading5.add("Dijkstra");
-        heading5.add("Bellman Ford");
+        heading5.add(getString(R.string.str_bfs_traversal));
+        heading5.add(getString(R.string.str_dfs_traversal));
+        heading5.add(getString(R.string.str_dijkstra));
+        heading5.add(getString(R.string.str_ford));
 
         List<String> heading10 = new ArrayList<String>();
-        heading10.add("About");
-        heading10.add("Fork on Github");
+        heading10.add(getString(R.string.str_about));
+        heading10.add(getString(R.string.str_fork));
 
         try {
             if (BillingProcessor.isIabServiceAvailable(this)) {
