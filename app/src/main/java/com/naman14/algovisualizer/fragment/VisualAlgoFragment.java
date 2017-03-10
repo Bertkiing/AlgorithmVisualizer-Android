@@ -12,7 +12,7 @@
  * See the GNU General Public License for more details.
  */
 
-package com.naman14.algovisualizer;
+package com.naman14.algovisualizer.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -31,6 +31,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.naman14.algovisualizer.AlgoCompletionListener;
+import com.naman14.algovisualizer.util.DataUtils;
+import com.naman14.algovisualizer.R;
 import com.naman14.algovisualizer.algorithm.Algorithm;
 import com.naman14.algovisualizer.algorithm.graph.BellmanFordAlgorithm;
 import com.naman14.algovisualizer.algorithm.graph.DijkstraAgorithm;
@@ -100,9 +103,9 @@ public class VisualAlgoFragment extends Fragment {
 
 
         bottomBar.setItems(
-                new BottomBarTab(R.drawable.ic_wb_incandescent_white_24dp, "Details"),
-                new BottomBarTab(R.drawable.ic_short_text_white_24dp, "Execution"),
-                new BottomBarTab(R.drawable.ic_code_white_24dp, "Code")
+                new BottomBarTab(R.drawable.ic_wb_incandescent_white_24dp, getActivity().getString(R.string.str_details)),
+                new BottomBarTab(R.drawable.ic_short_text_white_24dp, getActivity().getString(R.string.str_execution)),
+                new BottomBarTab(R.drawable.ic_code_white_24dp, getActivity().getString(R.string.str_code))
         );
 
         bottomBar.setOnTabClickListener(new OnTabClickListener() {

@@ -12,7 +12,7 @@
  * See the GNU General Public License for more details.
  */
 
-package com.naman14.algovisualizer;
+package com.naman14.algovisualizer.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -24,6 +24,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.naman14.algovisualizer.AlgorithmCode;
+import com.naman14.algovisualizer.R;
 import com.naman14.algovisualizer.algorithm.Algorithm;
 
 import thereisnospon.codeview.CodeView;

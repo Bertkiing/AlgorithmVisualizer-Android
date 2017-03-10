@@ -12,7 +12,7 @@
  * See the GNU General Public License for more details.
  */
 
-package com.naman14.algovisualizer;
+package com.naman14.algovisualizer.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -21,6 +21,9 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
+
+import com.naman14.algovisualizer.R;
+import com.naman14.algovisualizer.model.ExpandedMenuModel;
 
 import java.util.HashMap;
 import java.util.List;

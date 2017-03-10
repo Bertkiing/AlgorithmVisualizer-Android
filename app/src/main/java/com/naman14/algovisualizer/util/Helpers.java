@@ -12,7 +12,7 @@
  * See the GNU General Public License for more details.
  */
 
-package com.naman14.algovisualizer;
+package com.naman14.algovisualizer.util;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -32,6 +32,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.naman14.algovisualizer.R;
 
 public class Helpers {
 

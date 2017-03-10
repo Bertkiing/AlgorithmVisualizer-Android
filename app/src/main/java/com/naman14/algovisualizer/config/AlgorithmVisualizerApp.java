@@ -12,12 +12,13 @@
  * See the GNU General Public License for more details.
  */
 
-package com.naman14.algovisualizer;
+package com.naman14.algovisualizer.config;
 
 import android.app.Application;
 
 import com.crashlytics.android.Crashlytics;
 import com.crashlytics.android.core.CrashlyticsCore;
+import com.naman14.algovisualizer.BuildConfig;
 
 import io.fabric.sdk.android.Fabric;
 

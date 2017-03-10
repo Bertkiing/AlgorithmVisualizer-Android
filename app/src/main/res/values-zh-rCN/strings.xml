@@ -25,5 +25,8 @@
 	<string name="str_dijkstra">Dijkstra 最短路径算法</string>
 	<string name="str_ford">Bellman 最短路径算法</string>
 	<string name="str_fork">从Github中Frok</string>
+	<string name="str_details">详细</string>
+	<string name="str_execution">运行</string>
+	<string name="str_code">代码</string>
 
 </resources>

@@ -2,7 +2,7 @@ package com.naman14.algovisualizer.algorithm.sorting;
 
 import android.app.Activity;
 
-import com.naman14.algovisualizer.LogFragment;
+import com.naman14.algovisualizer.fragment.LogFragment;
 import com.naman14.algovisualizer.algorithm.Algorithm;
 import com.naman14.algovisualizer.visualizer.SortingVisualizer;
 

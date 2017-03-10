@@ -20,7 +20,7 @@ import android.os.HandlerThread;
 import android.os.Message;
 
 import com.naman14.algovisualizer.AlgoCompletionListener;
-import com.naman14.algovisualizer.LogFragment;
+import com.naman14.algovisualizer.fragment.LogFragment;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

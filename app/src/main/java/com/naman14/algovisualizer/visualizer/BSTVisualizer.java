@@ -22,7 +22,7 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 
-import com.naman14.algovisualizer.DataUtils;
+import com.naman14.algovisualizer.util.DataUtils;
 import com.naman14.algovisualizer.algorithm.tree.bst.BinarySearchTree;
 
 import java.util.ArrayList;

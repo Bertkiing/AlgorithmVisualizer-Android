@@ -23,4 +23,7 @@
     <string name="str_dijkstra">Dijkstra</string>
     <string name="str_ford">Bellman Ford</string>
     <string name="str_fork">Fork on Github</string>
+    <string name="str_details">Details</string>
+    <string name="str_execution">Execution</string>
+    <string name="str_code">Code</string>
 </resources>

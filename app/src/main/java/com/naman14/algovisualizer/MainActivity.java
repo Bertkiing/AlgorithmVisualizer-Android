@@ -29,9 +29,13 @@ import android.view.View;
 import android.widget.ExpandableListView;
 
 import com.anjlab.android.iab.v3.BillingProcessor;
+import com.naman14.algovisualizer.adapter.ExpandableListAdapter;
 import com.naman14.algovisualizer.algorithm.Algorithm;
 import com.naman14.algovisualizer.algorithm.graph.GraphTraversalAlgorithm;
 import com.naman14.algovisualizer.algorithm.tree.bst.BSTAlgorithm;
+import com.naman14.algovisualizer.fragment.VisualAlgoFragment;
+import com.naman14.algovisualizer.model.ExpandedMenuModel;
+import com.naman14.algovisualizer.util.Helpers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -149,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             case 1:
                                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                                Uri data = Uri.parse("https://github.com/naman14/AlgorithmVisualizer-Android");
+                                Uri data = Uri.parse("https://github.com/Bertkiing/AlgorithmVisualizer-Android");
                                 intent.setData(data);
                                 startActivity(intent);
                                 break;
